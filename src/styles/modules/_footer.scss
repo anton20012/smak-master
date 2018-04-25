@@ -1,0 +1,21 @@
+.footer{
+    background-color: #131316;
+    text-align: center;
+    padding: 30px 0 90px;
+    .copy{
+        span{
+            color: $color-primary;
+        }
+    }
+    .social-list{
+        a{
+            font-size: 20px;
+            color: $color-white;
+            padding: 0 15px;
+            &:hover{
+                color: $color-primary;
+            }
+        }
+    }
+
+}

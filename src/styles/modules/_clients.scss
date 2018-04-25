@@ -1,0 +1,13 @@
+.clients{
+    .section-bottom{
+        .card{
+            background-color: transparent;
+            color: $color-white;
+            padding: 50px 0;
+            &-desc{
+                max-width: 545px;
+                margin: auto;
+            }
+        }
+    }
+}

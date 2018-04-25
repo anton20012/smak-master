@@ -1,0 +1,60 @@
+//navbar
+.navbar{
+	&-container{
+		position: fixed;
+		width: 100%;
+		z-index: 1;
+	}
+	&-nav{
+		& .nav-item{
+			position: relative;
+			padding: 0 25px;
+			&.active a{
+				color: $color-primary;
+			}
+			&::after{
+				top: 10%;
+				position: absolute;
+				content: '\2022';
+				display: inline-block;
+				color: $color-primary;
+				margin-left: -28px;
+			}
+			&:first-child{
+				&::after{
+					display: none;
+				}
+			}
+		}
+	}
+}
+//hero
+.hero{
+	height: 100vh;
+	& .background{
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-size: cover;
+	}
+	.foreground{
+		height: inherit;
+		position: relative;
+
+	}
+	&-body{
+		height: inherit;
+		text-align: center;
+		color: $color-white;
+	}
+	&-content{
+		width: 100%;
+		padding: 40px 0;
+	}
+	& .button{
+		margin-top: 40px;
+	}
+}
+

@@ -1,0 +1,69 @@
+@import '../variables/_vars.scss';
+
+html {
+	box-sizing: border-box;  
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+header,
+section,
+footer{
+	position: relative;
+}
+section{
+	padding: 60px 0;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+.wrapper {
+	overflow: hidden;
+	position: relative;
+}
+.bg{
+	background-color: $color-bg;
+}
+.bg-light{
+	background-color: $color-bg-light;
+}
+.inverse{
+	color: $color-dark;
+}
+.primary{
+	color: $color-primary;
+}
+.button{
+	background: $color-primary;
+	color: $color-button;
+	font-size: 20px;
+	font-weight: 700;
+	padding: 20px 50px;
+	text-transform: uppercase;
+	border: none;
+	&:hover{
+		background-color: lighten($color-primary, 10%);
+		color: $color-link;
+		cursor: pointer;
+		outline: none;
+	}
+}
+.overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background-color: rgba($color: #000000, $alpha: .5);
+}
+
+.heading{
+	text-align: center;
+}
+.card{
+	text-align: center;
+	border: none;
+	background-color: transparent;
+}

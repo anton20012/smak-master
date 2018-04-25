@@ -1,0 +1,22 @@
+@import '../../../bower_components/bootstrap/scss/bootstrap.scss';
+@import '../../../bower_components/swiper/dist/css/swiper.min.css';
+
+//base
+@import '../base/_base.scss';
+@import '../base/_type.scss';
+
+// components
+@import '../components/_graphs.scss';
+
+//variables
+@import '../variables/_mixins.scss';
+@import '../variables/_vars.scss';
+
+// modules
+@import '../modules/_header.scss';
+@import '../modules/_services.scss';
+@import '../modules/_work.scss';
+@import '../modules/_about.scss';
+@import '../modules/_clients.scss';
+@import '../modules/_contact.scss';
+@import '../modules/_footer.scss';

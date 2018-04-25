@@ -1,0 +1,32 @@
+.contact{
+    padding-bottom: 0;
+    .section-top{
+        .icon{
+            fill:$color-primary;
+            font-size: 40px;
+        }
+        .card{
+            &-subtitle{
+                font-weight: 300;
+                text-transform: none;
+            }
+        }
+    }
+    .section-bottom{
+        .heading{
+            padding-top: 50px;
+        }
+        .form-contact{
+            padding-bottom: 60px;
+        }
+        .form-control{
+            background-color: transparent;
+            border-radius: 0;
+            color: $color-white;
+            font-weight: 300;
+        }
+            textarea{
+                min-height: 225px;
+            }
+        }
+}
